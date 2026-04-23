@@ -1,8 +1,11 @@
-import { StyleSheet } from "react-native";
+﻿import { StyleSheet } from "react-native";
 
-export const styles =new StyleSheet.create({
+export const styles = StyleSheet.create({
     tabBarStyle: {
-        backgroundColor: "#000000",
-        borderTopWidth: 0,
+        borderTopWidth: 1,
+        height: 62,
+        paddingTop: 6,
+        paddingBottom: 8,
     },
 });
+

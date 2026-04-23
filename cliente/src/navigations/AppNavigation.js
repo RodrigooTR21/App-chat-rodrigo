@@ -1,5 +1,4 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { ChatScreen } from "../screens/Chat";
 import {
   CameraScreen,
   ImageFullScreen,
@@ -24,17 +23,6 @@ export default function AppNavigation() {
         name={screens.tab.root}
         component={BottomTabNavigation}
         options={{ headerShown: false }}
-      />
-      <Stack.Screen
-        name={screens.global.chatScreen}
-        component={ChatScreen}
-        options={{
-          headerShown: false,
-          contentStyle: styles.stackContent,
-          headerStyle: styles.stackHeader,
-          headerTitleStyle: styles.stackHeaderTitle
-        }}
-
       />
       <Stack.Screen
         name={screens.global.groupScreen}
